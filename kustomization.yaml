@@ -1,0 +1,6 @@
+commonLabels:
+    app: static-site
+resources:
+  - deployment.yaml
+  - service.yaml
+    
