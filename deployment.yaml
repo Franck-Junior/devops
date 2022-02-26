@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: static-site
-        image: us-central1-docker.pkg.dev/apt-advantage-341821/samples/static-site
+        image: LOCATION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG
         ports:
         - containerPort: 80
