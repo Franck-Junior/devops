@@ -22,8 +22,8 @@ env:
   GAR_LOCATION: us-central1
   GKE_CLUSTER: cluster-1
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
-  REPOSITORY: samples # TODO: update to Artifact Registry docker repository
+  DEPLOYMENT_NAME: static-site-deployment
+  REPOSITORY: samples
   IMAGE: static-site
 
 jobs:
